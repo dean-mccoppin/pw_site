@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  margin: auto;
+  width: 90%;
+}
+
+/* navbar 
+.navbar {
+  z-index: 1;
+  height: 150px;
+}
+
+.navbar-collapse {
+  margin-left: 10px !important;
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-decoration: none !important;
+  display: inline-block !important;
+  position: relative !important;
+}
+
+.navbar-nav {
+  margin: auto;
+  border-radius: 25px;
+  background: #d3d3d3;
+  padding: 5px;
+  width: auto;
+  height: auto;
+}
+
+.active {
+  font-weight: 400;
+}
+
+.navbar-nav a {
+  color: rgb(0, 0, 0) !important;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 10px 20px !important;
+}
+
+.navbar-nav a:hover {
+  color: rgb(110, 110, 110) !important;
+}
+
+*/
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+.nav-brand {
+  display: flex;
+  font-weight: bold;
+  font-size: 17px;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none !important;
+  padding: 10px 20px;
+  position: relative !important;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  /* gray border */
+  margin: auto;
+  border-radius: 25px;
+  background: #f1f1f1;
+  padding: 7px;
+  width: auto;
+  height: auto;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none !important;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-links a:hover {
+  color: rgb(104, 104, 104);
+}
+
+.nav-links a.active {
+  color: black;
+  margin: auto;
+  border-radius: 15px;
+  background: #ffffff;
+  padding: 6px;
+  width: auto;
+  height: auto;
+}
+
+.nav-contact {
+  display: flex;
+  font-weight: bold;
+  font-size: 17px;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none !important;
+  padding: 10px 20px;
+  position: relative !important;
+}
+
+/* about start */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
