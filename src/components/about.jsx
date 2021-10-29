@@ -15,7 +15,16 @@ function About() {
         PostgresSQL, Redis, and more.
       </div>
       <div className="about-button1">
-        <Button size="xl" radius="lg" color="dark">
+        <Button
+          size="xl"
+          radius="lg"
+          color="dark"
+          styles={{
+            label: {
+              fontSize: 18,
+            },
+          }}
+        >
           More about me →
         </Button>
       </div>
@@ -37,11 +46,11 @@ function About() {
                 paddingRight: 10,
               },
               label: {
-                fontSize: 20,
+                fontSize: 18,
               },
             }}
           >
-            Say hello
+            <span id="wave-emoji">👋</span> Say hello
           </Button>
         </div>
         <div style={{ width: 250 }}>
@@ -54,10 +63,11 @@ function About() {
                 backgroundColor: "#f5f6fa !important",
               },
               label: {
-                fontSize: 20,
+                fontSize: 18,
                 color: "#000000 !important",
               },
             }}
+            id="meeting-btn"
           >
             Schedule a meeting
           </Button>
