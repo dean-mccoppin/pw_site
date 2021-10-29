@@ -173,6 +173,7 @@
   justify-content: center;
   font-size: 60px;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .job-role {
@@ -190,12 +191,13 @@
   text-align: center;
   font-size: 1.125rem;
   color: rgba(0, 0, 0, 0.7);
-  padding-bottom: 70px;
+  padding-bottom: 60px;
 }
 
 .about-button1 {
   display: flex;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 /* button stuff for hover */
@@ -205,4 +207,29 @@ button {
 
 button:hover {
   transform: scale(1.05);
+}
+
+.contact-info {
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.contact-description {
+  display: flex;
+  text-align: center;
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 30px;
+}
+
+.about-buttons2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
 }

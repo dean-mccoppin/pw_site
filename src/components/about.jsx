@@ -19,7 +19,50 @@ function About() {
           More about me →
         </Button>
       </div>
-      <div className="contact-info"></div>
+      <div className="contact-info">Get in touch</div>
+      <div className="contact-description">
+        I'm currently looking for an internship! If you have any questions, feel
+        free to reach out. My inbox is always open.
+      </div>
+      <div className="about-buttons2">
+        <div style={{ width: 250 }}>
+          <Button
+            size="xl"
+            radius="lg"
+            color="dark"
+            fullWidth
+            styles={{
+              root: {
+                paddingLeft: 10,
+                paddingRight: 10,
+              },
+              label: {
+                fontSize: 20,
+              },
+            }}
+          >
+            Say hello
+          </Button>
+        </div>
+        <div style={{ width: 250 }}>
+          <Button
+            size="xl"
+            radius="lg"
+            fullWidth
+            styles={{
+              root: {
+                backgroundColor: "#f5f6fa !important",
+              },
+              label: {
+                fontSize: 20,
+                color: "#000000 !important",
+              },
+            }}
+          >
+            Schedule a meeting
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
