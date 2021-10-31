@@ -274,10 +274,15 @@ button:hover {
 
 .abtreal-desc {
   display: flex;
-  font-size: 1.125rem;
-  color: rgba(0, 0, 0, 0.7);
+  flex-direction: column;
   padding-bottom: 60px;
   padding-top: 30px;
+}
+
+.abtreal-desc span {
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 25px;
 }
 
 .abtreal-techtitle {
@@ -302,4 +307,17 @@ button:hover {
   justify-content: space-evenly;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.abtreal-techrow img {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  transition: box-shadow 0.3s;
+}
+
+.abtreal-techrow img:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
