@@ -1,19 +1,20 @@
 import React from "react";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 
 function NavComponent() {
   return (
     <nav className="navbar-container">
       <div className="nav-brand">Hussein Shirazi</div>
       <div className="nav-links">
-        <a className="nav-link active" href="#">
+        <NavLink className="nav-link" activeClassName="active" exact to="/">
           Home
-        </a>
-        <a className="nav-link" href="#">
+        </NavLink>
+        <NavLink className="nav-link" activeClassName="active" to="/about">
           About
-        </a>
-        <a className="nav-link" href="#">
+        </NavLink>
+        <NavLink className="nav-link" activeClassName="active" to="/projects">
           Projects
-        </a>
+        </NavLink>
         <a className="nav-link" href="#">
           Github
         </a>
