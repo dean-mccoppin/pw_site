@@ -310,7 +310,7 @@ button:hover {
 }
 
 .abtreal-techrow img {
-  margin: auto;
+  margin: 2px;
   background: rgb(255, 255, 255);
   padding: 10px;
   width: 70px;
@@ -335,6 +335,8 @@ button:hover {
 
 .clubproj-startcont {
   margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .clubproj-middlecont {
@@ -346,6 +348,16 @@ button:hover {
   text-align: left;
 }
 
+.clubproj-bottomcont {
+  text-align: left;
+}
+
+.clubproj-endcont {
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .clubproj-title {
   color: black;
   font-size: 25px;
@@ -354,8 +366,11 @@ button:hover {
 }
 
 .clubproj-language {
+  color: rgb(126, 126, 126);
 }
 
-.clubproj-endcont {
+.abtreal-container2 {
+  width: 90%;
   margin: auto;
+  padding-bottom: 30px;
 }
