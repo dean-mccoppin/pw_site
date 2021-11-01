@@ -24,8 +24,8 @@ function About() {
           step.{" "}
         </span>
         <span>
-          For any of my undeployed concepts from our coding club, check out my{" "}
-          <a href="https://github.com/dean-mccoppin">Github!</a>{" "}
+          For any suggestions or issues with my services, check out my{" "}
+          <a href="https://github.com/dean-mccoppin">Github.</a>{" "}
         </span>
       </div>
       <span className="abtreal-techtitle">Technologies I Frequently Use</span>
@@ -63,6 +63,31 @@ function About() {
           <a href="https://aws.amazon.com/">
             <img src={aws} height="50" width="50" />
           </a>
+        </div>
+      </div>
+      <span className="abtreal-techtitle">Club Projects</span>
+      <div className="clubproj-list">
+        <div className="clubproj-container">
+          <div className="clubproj-startcont">
+            <span>05</span>
+          </div>
+          <div className="clubproj-middlecont">
+            <div className="clubproj-midtopcont">
+              <span className="clubproj-title">
+                Spotify Top Chart Generator
+              </span>
+              <span className="clubproj-language">Python</span>
+            </div>
+            <div className="clubproj-bottomcont">
+              <span>
+                Automatically generates a playlist of the hot 100 tracks of the
+                week from Billboard.
+              </span>
+            </div>
+          </div>
+          <div className="clubproj-endcont">
+            <span>→</span>
+          </div>
         </div>
       </div>
     </div>

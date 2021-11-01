@@ -321,3 +321,41 @@ button:hover {
 .abtreal-techrow img:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
+
+.clubproj-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.clubproj-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clubproj-startcont {
+  margin: auto;
+}
+
+.clubproj-middlecont {
+  text-align: center;
+}
+
+.clubproj-midtopcont {
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.clubproj-title {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.clubproj-language {
+}
+
+.clubproj-endcont {
+  margin: auto;
+}
