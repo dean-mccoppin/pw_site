@@ -384,3 +384,78 @@ button:hover {
   margin: auto;
   padding-bottom: 30px;
 }
+
+/* projects container */
+
+.projects-container {
+  display: flex;
+  flex-flow: column;
+  width: 95%;
+  margin: auto;
+}
+
+.project-boldtitle {
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.project-desc {
+  display: flex;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  text-align: center;
+  font-size: 1.125rem;
+  width: 30%;
+  margin: auto;
+}
+
+.projects-projcont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.proj {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.proj img {
+  object-fit: contain;
+  width: 100%;
+  length: auto;
+}
+
+.proj-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 35px;
+  padding-top: 30px;
+}
+
+.proj-titles > span {
+  text-align: left;
+  line-height: 1.15;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.proj-desc {
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  line-height: 180%;
+  letter-spacing: 0.02rem;
+}
