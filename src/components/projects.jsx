@@ -7,7 +7,13 @@ function Projects() {
     <div className="projects-container">
       <div className="project-boldtitle">Projects</div>
       <div className="project-desc">
-        <span>Here are some of my new concepts. Check out my Github here.</span>
+        <span>
+          Here are some of my new concepts. Check out my{" "}
+          <a id="link" href="#">
+            Github
+          </a>{" "}
+          here.
+        </span>
       </div>
       <div className="projects-projcont">
         <div className="proj">
@@ -50,7 +56,7 @@ function Projects() {
         <div className="proj">
           <img src={test} />
           <div className="proj-titles">
-            <span>Reddit Algorithm</span>
+            <span>RedditAlgo</span>
             <div>
               <Button
                 size="lg"
