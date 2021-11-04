@@ -8,11 +8,11 @@ function Projects() {
       <div className="project-boldtitle">Projects</div>
       <div className="project-desc">
         <span>
-          Here are some of my new concepts. Check out my{" "}
-          <a id="link" href="#">
-            Github
-          </a>{" "}
-          here.
+          Here are some of my new concepts. Have any suggestions or issues?
+          Throw 'em{" "}
+          <a id="link" href="https://github.com/dean-mccoppin">
+            here.
+          </a>
         </span>
       </div>
       <div className="projects-projcont">

@@ -4,7 +4,9 @@ import { BrowserRouter as Router, NavLink } from "react-router-dom";
 function NavComponent() {
   return (
     <nav className="navbar-container">
-      <div className="nav-brand">Hussein Shirazi</div>
+      <NavLink className="nav-brand" exact to="/">
+        Hussein Shirazi
+      </NavLink>
       <div className="nav-links">
         <NavLink className="nav-link" activeClassName="active" exact to="/">
           Home
@@ -19,7 +21,11 @@ function NavComponent() {
           Github
         </a>
       </div>
-      <div className="nav-contact">Contact</div>
+      <div className="nav-contact">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=husseinabbasshirazi@gmail.com">
+          Contact
+        </a>
+      </div>
     </nav>
   );
 }

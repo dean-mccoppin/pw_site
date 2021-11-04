@@ -17,6 +17,11 @@
   text-decoration: none !important;
   padding: 10px 20px;
   position: relative !important;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.nav-brand:hover {
+  color: rgb(150, 150, 150) !important;
 }
 
 .nav-links {
@@ -46,7 +51,7 @@
   border-radius: 15px;
 }
 .nav-links a:hover {
-  color: rgb(150, 150, 150);
+  color: rgb(150, 150, 150) !important;
 }
 .nav-links a:active,
 .nav-links a.active {
@@ -59,10 +64,18 @@
   font-weight: 500;
   font-size: 17px;
   align-items: center;
-  color: rgb(0, 0, 0);
-  text-decoration: none !important;
   padding: 10px 20px;
   position: relative !important;
+}
+
+.nav-contact a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.nav-contact a:hover {
+  color: rgb(150, 150, 150) !important;
 }
 
 /* home start */
@@ -307,6 +320,7 @@ button:hover {
   justify-content: space-evenly;
   padding-top: 20px;
   padding-bottom: 20px;
+  flex: 1;
 }
 
 .abtreal-techrow img {
@@ -334,6 +348,7 @@ button:hover {
   border: 1px rgb(236, 236, 236);
   border-style: solid none;
   padding: 35px 0;
+  flex: 1;
 }
 
 .clubproj-startcont {
@@ -357,7 +372,7 @@ button:hover {
   text-align: left;
   width: 100%;
   max-width: 600px;
-  color: rgb(109, 109, 109);
+  color: rgb(109, 109, 109) !important;
 }
 
 .clubproj-endcont {
@@ -366,6 +381,7 @@ button:hover {
   font-size: 1.5rem;
   padding-left: 60px;
   padding-right: 60px;
+  color: rgb(109, 109, 109) !important;
 }
 
 .clubproj-title {
