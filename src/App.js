@@ -1,5 +1,5 @@
 import "./App.css";
-import NavComponent from "./components/navbar.jsx";
+import NavParent from "./components/navbarparent.jsx";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
 import Footer from "./components/footer.jsx";
@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div className="wrapper">
-        <NavComponent />
+        <NavParent />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
