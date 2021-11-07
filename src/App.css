@@ -1,3 +1,19 @@
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 100% !important;
+  }
+
+  .clubproj-startcont {
+    padding-left: 10px !important;
+  }
+
+  .clubproj-endcont {
+    padding-right: 10px !important;
+  }
+}
+
+/* nav and gen */
 .wrapper {
   margin: auto;
   width: 90%;
@@ -169,6 +185,10 @@ button:hover {
   align-items: center;
   justify-content: space-evenly;
   padding-bottom: 40px;
+}
+
+.about-buttons2 div {
+  margin-bottom: 10px;
 }
 
 /* hand wave animation */
@@ -355,7 +375,7 @@ button:hover {
   border: 1px rgb(236, 236, 236);
   border-style: solid none;
   padding: 35px 0;
-  flex: 1;
+  flex-shrink: 1;
 }
 
 .clubproj-startcont {

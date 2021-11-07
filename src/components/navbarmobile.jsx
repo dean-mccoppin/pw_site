@@ -4,8 +4,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 function NavComponentMobile() {
   return (
-    <Navbar bg="light" expand="lg">
-      {/* change light to white */}
+    <Navbar bg="white" expand="lg">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
