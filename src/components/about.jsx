@@ -1,5 +1,4 @@
-import React from "react";
-import { Card } from "@mantine/core";
+import React, { useLayoutEffect } from "react";
 import c from "../img/icons8-c++.svg";
 import django from "../img/icons8-django.svg";
 import googlecloud from "../img/icons8-google-cloud-platform.svg";
@@ -12,6 +11,10 @@ import typescript from "../img/icons8-typescript.svg";
 import aws from "../img/icons8-amazon-web-services.svg";
 
 function About() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <>
       <div className="abtreal-container">
@@ -39,36 +42,76 @@ function About() {
         <span className="abtreal-techtitle">Technologies I Frequently Use</span>
         <div className="abtreal-techcontainer">
           <div className="abtreal-techrow">
-            <a href="https://www.cplusplus.com/">
+            <a
+              href="https://www.cplusplus.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={c} height="50" width="50" />
             </a>
-            <a href="https://www.django-rest-framework.org/">
+            <a
+              href="https://www.django-rest-framework.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={django} height="50" width="50" />
             </a>
-            <a href="https://cloud.google.com/">
+            <a
+              href="https://cloud.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={googlecloud} height="50" width="50" />
             </a>
-            <a href="https://www.javascript.com/">
+            <a
+              href="https://www.javascript.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={javascript} height="50" width="50" />
             </a>
-            <a href="https://www.typescriptlang.org/">
+            <a
+              href="https://www.typescriptlang.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={typescript} height="50" width="50" />
             </a>
           </div>
           <div className="abtreal-techrow">
-            <a href="https://nodejs.org/en/">
+            <a
+              href="https://nodejs.org/en/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={nodejs} height="50" width="50" />
             </a>
-            <a href="https://www.postgresql.org/">
+            <a
+              href="https://www.postgresql.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={postgresql} height="50" width="50" />
             </a>
-            <a href="https://www.python.org/">
+            <a
+              href="https://www.python.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={python} height="50" width="50" />
             </a>
-            <a href="https://reactjs.org/">
+            <a
+              href="https://reactjs.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={react} height="50" width="50" />
             </a>
-            <a href="https://aws.amazon.com/">
+            <a
+              href="https://aws.amazon.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={aws} height="50" width="50" />
             </a>
           </div>

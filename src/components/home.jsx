@@ -1,6 +1,7 @@
 import React from "react";
 import photo from "../img/proff-photo.png";
 import { Button } from "@mantine/core";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -16,6 +17,8 @@ function Home() {
       </div>
       <div className="about-button1">
         <Button
+          component={Link}
+          to="/about"
           size="xl"
           radius="lg"
           color="dark"
@@ -36,9 +39,15 @@ function Home() {
       <div className="about-buttons2">
         <div style={{ width: 250 }}>
           <Button
+            //fix the 4 lines below lol, messing up with stuff
+            component="a"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="#"
             size="xl"
             radius="lg"
             color="dark"
+            id="home-btn1"
             fullWidth
             styles={{
               root: {
@@ -55,8 +64,13 @@ function Home() {
         </div>
         <div style={{ width: 250 }}>
           <Button
+            component="a"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="#"
             size="xl"
             radius="lg"
+            id="home-btn2"
             fullWidth
             styles={{
               root: {

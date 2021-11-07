@@ -1,5 +1,7 @@
 import React from "react";
 import test from "../img/test.png";
+import proj1 from "../img/proj1.png";
+import proj2 from "../img/proj2.png";
 import { Button } from "@mantine/core";
 
 function Projects() {
@@ -17,11 +19,15 @@ function Projects() {
       </div>
       <div className="projects-projcont">
         <div className="proj">
-          <img src={test} />
+          <img src={proj1} />
           <div className="proj-titles">
             <span>TwitAnon</span>
             <div>
               <Button
+                component="a"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.twitanon.com/"
                 size="lg"
                 radius="lg"
                 styles={{
@@ -54,11 +60,15 @@ function Projects() {
           </ul>
         </div>
         <div className="proj">
-          <img src={test} />
+          <img src={proj2} />
           <div className="proj-titles">
             <span>RedditAlgo</span>
             <div>
               <Button
+                component="a"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://redditalgo.com/"
                 size="lg"
                 radius="lg"
                 styles={{

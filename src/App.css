@@ -14,6 +14,7 @@
 }
 
 /* nav and gen */
+
 .wrapper {
   margin: auto;
   width: 90%;
@@ -153,12 +154,15 @@
 }
 
 /* button stuff for hover */
-button {
+
+.about-button1 a {
   transition: all 0.15s ease-in-out 0s;
+  text-decoration: none;
 }
 
-button:hover {
+.about-button1 a:hover {
   transform: scale(1.05);
+  color: white;
 }
 
 .contact-info {
@@ -190,6 +194,28 @@ button:hover {
 .about-buttons2 div {
   margin-bottom: 10px;
 }
+
+#home-btn1 {
+  transition: all 0.15s ease-in-out 0s;
+  text-decoration: none;
+}
+
+#home-btn1:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+/* 
+.about-button1 a {
+  transition: all 0.15s ease-in-out 0s;
+  text-decoration: none;
+}
+
+.about-button1 a:hover {
+  transform: scale(1.05);
+  color: white;
+}
+*/
 
 /* hand wave animation */
 #wave-emoji {
@@ -234,6 +260,7 @@ button:hover {
 
 #meeting-btn:hover {
   background-color: rgb(0, 0, 0) !important;
+  transform: scale(1.05);
 }
 
 #meeting-btn:hover span {
@@ -463,7 +490,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 80px;
   align-items: baseline;
 }
