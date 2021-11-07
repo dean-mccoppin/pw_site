@@ -11,6 +11,7 @@ import typescript from "../img/icons8-typescript.svg";
 import aws from "../img/icons8-amazon-web-services.svg";
 
 function About() {
+  //scrolls to top when linked
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -121,7 +122,7 @@ function About() {
       <div className="abtreal-container2">
         <div className="clubproj-list">
           <a
-            href="https://github.com/dean-mccoppin/Billboard100_toSpotify"
+            href="https://github.com/dean-mccoppin/UserTags"
             style={{ textDecoration: "none" }}
             target="_blank"
             rel="noopener noreferrer"
@@ -129,6 +130,33 @@ function About() {
             <div className="clubproj-container">
               <div className="clubproj-startcont">
                 <span>05</span>
+              </div>
+              <div className="clubproj-middlecont">
+                <div className="clubproj-midtopcont">
+                  <span className="clubproj-title">Social Media Finder</span>
+                  <span className="clubproj-language">Django</span>
+                </div>
+                <div className="clubproj-bottomcont">
+                  <span>
+                    Full stack website built with Django that supports user
+                    profiles and custom tags to find online friends.
+                  </span>
+                </div>
+              </div>
+              <div className="clubproj-endcont">
+                <span>→</span>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://github.com/dean-mccoppin/Billboard100_toSpotify"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="clubproj-container">
+              <div className="clubproj-startcont">
+                <span>04</span>
               </div>
               <div className="clubproj-middlecont">
                 <div className="clubproj-midtopcont">
@@ -155,7 +183,7 @@ function About() {
           >
             <div className="clubproj-container">
               <div className="clubproj-startcont">
-                <span>04</span>
+                <span>03</span>
               </div>
               <div className="clubproj-middlecont">
                 <div className="clubproj-midtopcont">
@@ -182,7 +210,7 @@ function About() {
           >
             <div className="clubproj-container">
               <div className="clubproj-startcont">
-                <span>03</span>
+                <span>02</span>
               </div>
               <div className="clubproj-middlecont">
                 <div className="clubproj-midtopcont">
@@ -209,7 +237,7 @@ function About() {
           >
             <div className="clubproj-container">
               <div className="clubproj-startcont">
-                <span>02</span>
+                <span>01</span>
               </div>
               <div className="clubproj-middlecont">
                 <div className="clubproj-midtopcont">
@@ -220,33 +248,6 @@ function About() {
                   <span>
                     Data aggregator that sifts through all 4chan posts and
                     returns threads that match a chosen value.
-                  </span>
-                </div>
-              </div>
-              <div className="clubproj-endcont">
-                <span>→</span>
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://github.com/dean-mccoppin/UserTags"
-            style={{ textDecoration: "none" }}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="clubproj-container">
-              <div className="clubproj-startcont">
-                <span>01</span>
-              </div>
-              <div className="clubproj-middlecont">
-                <div className="clubproj-midtopcont">
-                  <span className="clubproj-title">Social Media Finder</span>
-                  <span className="clubproj-language">Django</span>
-                </div>
-                <div className="clubproj-bottomcont">
-                  <span>
-                    Full stack website built with Django that supports user
-                    profiles and custom tags to find online friends.
                   </span>
                 </div>
               </div>

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import test from "../img/test.png";
 import proj1 from "../img/proj1.png";
 import proj2 from "../img/proj2.png";
 import { Button } from "@mantine/core";
 
 function Projects() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className="projects-container">
       <div className="project-boldtitle">Projects</div>
@@ -12,7 +16,12 @@ function Projects() {
         <span>
           Here are some of my new concepts. Have any suggestions or issues?
           Throw 'em{" "}
-          <a id="link" href="https://github.com/dean-mccoppin">
+          <a
+            id="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/dean-mccoppin"
+          >
             here.
           </a>
         </span>

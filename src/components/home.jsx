@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import photo from "../img/proff-photo.png";
 import { Button } from "@mantine/core";
 import { Link } from "react-router-dom";
 
 function Home() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className="about-container">
       <div className="profile-image">
@@ -41,9 +45,7 @@ function Home() {
           <Button
             //fix the 4 lines below lol, messing up with stuff
             component="a"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="#"
+            href="mailto:husseinabbasshirazi@gmail.com"
             size="xl"
             radius="lg"
             color="dark"
@@ -67,7 +69,7 @@ function Home() {
             component="a"
             target="_blank"
             rel="noopener noreferrer"
-            href="#"
+            href="https://calendly.com/husseinshirazi/meeting"
             size="xl"
             radius="lg"
             id="home-btn2"

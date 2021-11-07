@@ -17,14 +17,17 @@ function NavComponent() {
         <NavLink className="nav-link" activeClassName="active" to="/projects">
           Projects
         </NavLink>
-        <a className="nav-link" href="#">
+        <a
+          className="nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/dean-mccoppin"
+        >
           Github
         </a>
       </div>
       <div className="nav-contact">
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=husseinabbasshirazi@gmail.com">
-          Contact
-        </a>
+        <a href="mailto:husseinabbasshirazi@gmail.com">Contact</a>
       </div>
     </nav>
   );

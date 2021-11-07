@@ -3,19 +3,22 @@ import github from "../img/github.svg";
 import linkedin from "../img/linkedin.svg";
 import mail from "../img/mail.svg";
 import twitter from "../img/twitter.svg";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <NavLink exact to="/">
+          Home
+        </NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <a href="mailto:husseinabbasshirazi@gmail.com">Contact</a>
       </div>
       <div className="footer-socials">
         <a
-          href="https://github.com/dean-mccoppinhttps://github.com/dean-mccoppin"
+          href="https://github.com/dean-mccoppin"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -39,7 +42,7 @@ function Footer() {
           <img src={twitter} height="22" width="22" />
         </a>
       </div>
-      <div className="copyright">© Hussein Shirazi</div>
+      <div className="copyright">© 2021 Hussein Shirazi</div>
     </div>
   );
 }
