@@ -13,9 +13,9 @@ function App() {
       <div className="wrapper">
         <NavParent />
         <Routes>
-          <Route exact path="/" component={<Home />} />
-          <Route exact path="/about" component={<About />} />
-          <Route exact path="/projects" component={<Projects />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
       </div>
