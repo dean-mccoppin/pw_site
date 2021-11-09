@@ -241,7 +241,7 @@ function About() {
               </div>
               <div className="clubproj-middlecont">
                 <div className="clubproj-midtopcont">
-                  <span className="clubproj-title">4chan Data Analyzer</span>
+                  <span className="clubproj-title">4chan Analyzer</span>
                   <span className="clubproj-language">BeautifulSoup</span>
                 </div>
                 <div className="clubproj-bottomcont">

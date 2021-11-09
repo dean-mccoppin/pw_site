@@ -3,17 +3,17 @@ import github from "../img/github.svg";
 import linkedin from "../img/linkedin.svg";
 import mail from "../img/mail.svg";
 import twitter from "../img/twitter.svg";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, NavLink, Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-links">
-        <NavLink exact to="/">
+        <Link exact to="/">
           Home
-        </NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
+        </Link>
+        <Link to="/about">About</Link>
+        <Link to="/projects">Projects</Link>
         <a href="mailto:husseinabbasshirazi@gmail.com">Contact</a>
       </div>
       <div className="footer-socials">

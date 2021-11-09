@@ -1,15 +1,110 @@
 /* mobile */
+/* remove hovers, change projects desc width, proj padding on bottom/top, last club project width, home widths, switch from nav links in footer */
 @media only screen and (max-width: 768px) {
   .wrapper {
     width: 100% !important;
   }
 
+  .about-container {
+    width: 90% !important;
+  }
+
   .clubproj-startcont {
-    padding-left: 10px !important;
+    padding-left: 0px !important;
+    padding-right: 10px !important;
   }
 
   .clubproj-endcont {
-    padding-right: 10px !important;
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+  }
+
+  .clubproj-middlecont {
+    max-width: 150px !important;
+  }
+
+  .clubproj-midtopcont {
+    padding-bottom: 20px !important;
+  }
+
+  .abtreal-container {
+    width: 90% !important;
+  }
+
+  .abtreal-container2 {
+    width: 100% !important;
+  }
+
+  .project-desc {
+    width: 90% !important;
+  }
+
+  .proj {
+    padding-bottom: 70px !important;
+  }
+}
+
+@media (hover: hover) {
+  .nav-brand:hover {
+    color: rgb(150, 150, 150) !important;
+  }
+
+  .nav-links a:hover {
+    color: rgb(150, 150, 150) !important;
+  }
+
+  .nav-contact a:hover {
+    color: rgb(150, 150, 150) !important;
+  }
+
+  .about-button1 a {
+    transition: all 0.15s ease-in-out 0s;
+    text-decoration: none;
+  }
+
+  .about-button1 a:hover {
+    transform: scale(1.05);
+    color: white;
+  }
+
+  #home-btn1:hover {
+    transform: scale(1.05);
+    color: white;
+  }
+
+  #meeting-btn:hover {
+    background-color: rgb(0, 0, 0) !important;
+    transform: scale(1.05);
+  }
+
+  #meeting-btn:hover span {
+    color: white !important;
+  }
+
+  .footer-links a:hover {
+    color: black;
+  }
+
+  .footer-socials img:hover {
+    filter: invert(43%) sepia(0%) saturate(367%) hue-rotate(136deg)
+      brightness(94%) contrast(96%);
+  }
+
+  .abtreal-techrow img:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+
+  .proj img:hover {
+    transform: scale(1.1);
+  }
+
+  #link:hover {
+    border-bottom-width: 0px;
+  }
+
+  .about-button1 a:hover {
+    transform: scale(1.05);
+    color: white;
   }
 }
 
@@ -35,10 +130,6 @@
   padding: 10px 20px;
   position: relative !important;
   transition: all 0.15s ease-in-out 0s;
-}
-
-.nav-brand:hover {
-  color: rgb(150, 150, 150) !important;
 }
 
 .nav-links {
@@ -67,9 +158,7 @@
   z-index: 1;
   border-radius: 15px;
 }
-.nav-links a:hover {
-  color: rgb(150, 150, 150) !important;
-}
+
 .nav-links a:active,
 .nav-links a.active {
   color: black;
@@ -89,10 +178,6 @@
   color: rgb(0, 0, 0);
   text-decoration: none;
   transition: all 0.15s ease-in-out 0s;
-}
-
-.nav-contact a:hover {
-  color: rgb(150, 150, 150) !important;
 }
 
 /* mobile nav */
@@ -160,11 +245,6 @@
   text-decoration: none;
 }
 
-.about-button1 a:hover {
-  transform: scale(1.05);
-  color: white;
-}
-
 .contact-info {
   color: black;
   display: flex;
@@ -199,23 +279,6 @@
   transition: all 0.15s ease-in-out 0s;
   text-decoration: none;
 }
-
-#home-btn1:hover {
-  transform: scale(1.05);
-  color: white;
-}
-
-/* 
-.about-button1 a {
-  transition: all 0.15s ease-in-out 0s;
-  text-decoration: none;
-}
-
-.about-button1 a:hover {
-  transform: scale(1.05);
-  color: white;
-}
-*/
 
 /* hand wave animation */
 #wave-emoji {
@@ -258,15 +321,6 @@
   transition: all 0.15s ease-in-out 0s;
 }
 
-#meeting-btn:hover {
-  background-color: rgb(0, 0, 0) !important;
-  transform: scale(1.05);
-}
-
-#meeting-btn:hover span {
-  color: white !important;
-}
-
 /* footer start */
 .footer-container {
   display: flex;
@@ -291,10 +345,6 @@
   color: black;
 }
 
-.footer-links a:hover {
-  color: black;
-}
-
 .footer-socials {
   display: flex;
   justify-content: center;
@@ -305,11 +355,6 @@
 
 .footer-socials img {
   margin: 10px;
-}
-
-.footer-socials img:hover {
-  filter: invert(43%) sepia(0%) saturate(367%) hue-rotate(136deg)
-    brightness(94%) contrast(96%);
 }
 
 .copyright {
@@ -387,14 +432,11 @@
   transition: all 0.1s ease-in-out 0s;
 }
 
-.abtreal-techrow img:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-}
-
 .clubproj-list {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
+  flex: 1;
 }
 
 .clubproj-container {
@@ -403,7 +445,7 @@
   border: 1px rgb(236, 236, 236);
   border-style: solid none;
   padding: 35px 0;
-  flex-shrink: 1;
+  flex: 1;
 }
 
 .clubproj-startcont {
@@ -431,6 +473,7 @@
 }
 
 .clubproj-endcont {
+  /* experiment with centering */
   margin: auto;
   letter-spacing: 0.02em;
   font-size: 1.5rem;
@@ -514,10 +557,6 @@
   transition: transform 0.5s ease;
 }
 
-.proj img:hover {
-  transform: scale(1.1);
-}
-
 .proj-titles {
   display: flex;
   justify-content: space-between;
@@ -551,16 +590,13 @@
   transition: all 0.05s linear 0s;
 }
 
-#link:hover {
-  border-bottom-width: 0px;
-}
-
 .proj-labels {
   text-align: left;
   padding: 0 !important;
 }
 
 .proj-labels li {
+  float: left;
   display: inline;
   color: rgb(105, 105, 105);
   font-size: 13px;
